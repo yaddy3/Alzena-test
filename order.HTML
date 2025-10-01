@@ -1,0 +1,230 @@
+<HTML>
+<HEAD>
+<TITLE> ACTION FIGURE </TITLE>
+<link rel="stylesheet" href="layout.css">
+<link rel="order" href="ordere.css">
+</head>
+<body>
+<center><h1>‧₊˚♪ 𝄞₊˚⊹ Welcome To Our Order Website ᝰ.ᐟ</h1>
+<img src="hedr.jpg" width=1000></center>
+<p>
+<nav>
+<ul>
+<li><a href="f1.html">Home</a></li>
+<li><a href="product.html">product</a></li>
+<li><a href="order.html">Order</a></li>
+<li><a href="mwp.html">Most Wanted</a></li>
+<li><a href="nl.html">New Launching</a></li>
+</p></nav>
+<form
+  action="https://formspree.io/f/{FORM_ID}"
+  class="fs-form fs-layout__2-column"
+  target="_top"
+  method="POST"
+>
+  <fieldset>
+    <legend class="fs-fieldset-title">Identity</legend>
+    <div class="fs-field">
+      <label class="fs-label" for="full-name">Full Name</label>
+      <input
+        class="fs-input"
+        id="full-name"
+        name="full-name"
+        placeholder="Enter your full name"
+        required
+      />
+    </div>
+    <div class="fs-field">
+      <label class="fs-label" for="email-address">Email Address</label>
+      <input
+        class="fs-input"
+        id="email-address"
+        name="email-address"
+        placeholder="Enter your email address"
+        required
+      />
+    </div>
+    <div class="fs-field">
+      <label class="fs-label" for="phone-number">Phone Number</label>
+      <input
+        class="fs-input"
+        id="phone-number"
+        name="phone-number"
+        placeholder="Enter your phone number"
+        required
+      />
+    </div>
+    <div class="fs-field">
+      <label class="fs-label" for="company-name">Company Name</label>
+      <input
+        class="fs-input"
+        id="company-name"
+        name="company-name"
+        placeholder="Enter your company name (optional)"
+      />
+    </div>
+  </fieldset>
+  <fieldset>
+    <legend class="fs-fieldset-title">Shipping Address</legend>
+    <div class="fs-field col-span-full">
+      <label class="fs-label" for="street-address">Street Address</label>
+      <input
+        class="fs-input"
+        id="street-address"
+        name="street-address"
+        placeholder="Enter your street address"
+        required
+      />
+    </div>
+    <div class="fs-field">
+      <label class="fs-label" for="city">City</label>
+      <input
+        class="fs-input"
+        id="city"
+        name="city"
+        placeholder="Enter your city"
+        required
+      />
+    </div>
+    <div class="fs-field">
+      <label class="fs-label" for="state-province-region">
+        State/Province/Region
+      </label>
+      <select
+        class="fs-select"
+        id="state-province-region"
+        name="state-province-region"
+        required
+      >
+        <option value="Indonesia">Jawa Barat</option>
+        <option value="Indonesia">Jawa Tengah</option>
+        <option value="Indonesia">Jawa Timur</option>
+        <option value="other">Luar Jawa</option>
+      </select>
+    </div>
+    <div class="fs-field">
+      <label class="fs-label" for="postal-zip-code">Postal/ZIP Code</label>
+      <input
+        class="fs-input"
+        id="postal-zip-code"
+        name="postal-zip-code"
+        placeholder="Enter your postal/ZIP code"
+        required
+      />
+    </div>
+    <div class="fs-field">
+      <label class="fs-label" for="country">Country</label>
+      <select class="fs-select" id="country" name="country" required>
+        <option value="idn">Indonesia</option>
+      </select>
+    </div>
+  </fieldset>
+  <fieldset>
+    <legend class="fs-fieldset-title">Order Details</legend>
+    <div class="fs-field">
+      <label class="fs-label" for="product-name">Product Name</label>
+          <div class="fs-field">
+      <label class="fs-label" for="quantity">Quantity</label>
+      <input
+        class="fs-input"
+        id="quantity"
+        name="quantity"
+        placeholder="Enter the quantity"
+        required
+      />
+    </div>
+    <div class="fs-field col-span-full">
+      <label class="fs-label" for="additional-notes">
+        Additional Notes/Instructions
+      </label>
+      <textarea
+        class="fs-textarea"
+        id="additional-notes"
+        name="additional-notes"
+        placeholder="Enter any customization or specific requests (optional)"
+      ></textarea>
+    </div>
+  </fieldset>
+  <fieldset>
+    <legend class="fs-fieldset-title">Delivery Preferences</legend>
+    <div class="fs-field">
+      <label class="fs-label" for="payment-method">Payment Method</label>
+      <select
+        class="fs-select"
+        id="payment-method"
+        name="payment-method"
+        required
+      >
+        <option value="credit-card">Credit Card</option>
+        <option value="bank-transfer">Bank Transfer</option>
+        <option value="paypal">PayPal</option>
+      </select>
+    </div>
+    <div class="fs-field">
+      <label class="fs-label" for="delivery-method">Delivery Method</label>
+      <select
+        class="fs-select"
+        id="delivery-method"
+        name="delivery-method"
+        required
+      >
+        <option value="standard-shipping">Standard Shipping</option>
+        <option value="express-shipping">Express Shipping</option>
+        <option value="pickup">Pickup</option>
+      </select>
+    </div>
+    <div class="fs-field col-span-full">
+      <label class="fs-label" for="delivery-date">
+        Preferred Delivery Date
+      </label>
+      <input
+        class="fs-input"
+        id="delivery-date"
+        name="delivery-date"
+        placeholder="Enter your preferred delivery date in DD-MM-YYYY format"
+      />
+    </div>
+  </fieldset>
+  <fieldset>
+    <div class="fs-checkbox-field">
+      <div class="fs-checkbox-wrapper">
+        <input
+          class="fs-checkbox"
+          id="terms-agreement"
+          name="terms-agreement"
+          required
+          type="checkbox"
+          value="agree"
+        />
+      </div>
+      <div>
+        <label class="fs-label" for="terms-agreement">
+          Agree to Terms and Conditions
+        </label>
+      </div>
+    </div>
+  </fieldset>
+  <div class="fs-checkbox-field">
+    <div class="fs-checkbox-wrapper">
+      <input
+        class="fs-checkbox"
+        id="subscribe-updates"
+        name="subscribe-updates"
+        type="checkbox"
+        value="subscribe"
+      />
+    </div>
+    <div>
+      <label class="fs-label" for="subscribe-updates">
+        Subscribe to Promotions/Updates
+      </label>
+    </div>
+  </div>
+  <div class="fs-button-group">
+    <button class="fs-button" type="submit">Submit</button>
+  </div>
+</form>
+
+<div>Copyright&copy; 2020 by Alzen</div>
+</body>
+</html>
